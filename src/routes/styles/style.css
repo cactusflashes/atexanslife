@@ -1,0 +1,368 @@
+body {
+    background-color: #fffcf6; 
+    margin: 0;
+    padding: 0;
+    overflow-y: visible; 
+    overflow-x: hidden;
+}
+
+.spacer {
+    height: 100px; 
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+    background-color: #fffcf6; 
+    height: 100%; 
+    width: 100vw;
+    align-items: center;
+    overflow-y: visible;
+}
+
+ul {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    font-family: 'Plus Jakarta Sans';
+    opacity: 0.7; 
+}
+
+p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    color: #2f1f00; 
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+    color: #2f1f00; 
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Plus Jakarta Sans'; 
+    font-size: 1.1rem;
+    color: #2f1f00; 
+    font-weight: 400;
+    margin: 0; 
+}
+
+h4 {
+    font-family: 'Plus Jakarta Sans'; 
+    font-size: 1.8rem;
+    color: #2f1f00; 
+    font-weight: 600;
+    margin: 0; 
+    margin-left: 20px; 
+}
+
+h5 {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    color: #2f1f00; 
+    font-weight: 400;
+    margin: 0; 
+}
+
+.vstack-sign {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.item-listing-header {
+    margin-top: 20px; 
+    margin-left: 20px; 
+    width: 70%; 
+}
+
+.item-listing-header-right {
+    display: flex; 
+    position: absolute;
+    top: 0; 
+    right: 40px; 
+    margin-top: 20px; 
+    width: auto; 
+}
+
+.mobile-spacer {
+    display: flex;
+    height: 100px; 
+    width: 100%; 
+}
+
+.years {
+    opacity: 50%; 
+    margin-top: 20px; 
+}
+
+.years-right {
+    position: absolute; 
+    right: 0;
+    margin-right: 40px; 
+    opacity: 50%; 
+    margin-top: 70px;
+    width: auto; 
+}
+
+.nav-link {
+    font-family: 'Plus Jakarta Sans';
+    text-decoration: underline;
+    font-weight: 500;
+    color: #2f1f00;
+}
+
+.navigation {
+    display: flex; 
+    flex-direction: row;
+    height: 80px; 
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+    gap: 30vw; 
+}
+
+.exit {
+    display: flex; 
+    flex-direction: column;
+    height: 30px; 
+    width: 30px; 
+    border-radius: 100%;
+    background-color: #2f1f00;
+    align-items: center;
+    justify-content: center;
+    color: #fffcf6; 
+}
+
+.divider {
+    height: 0px; 
+    border-bottom: 1px solid #2f1f00;
+    width: 90%
+}
+
+.body-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+}
+
+.button-enter {
+    display: flex; 
+    background-color: transparent;
+    border: 1px solid #2f1f00; 
+    font-family: 'Plus Jakarta Sans'; 
+    font-weight: 400;
+    font-size: 1rem;  
+    padding: 5px 30px; 
+    border-radius: 40px; 
+    transition: background-color .3s, color .3s;
+}
+
+.button-enter:hover{
+    cursor: pointer;
+    background-color: #2f1f00;
+    color: #fffcf6; 
+    transition: background-color .3s, color .3s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.jp-img {
+    max-width: 30%;
+    border-radius: 40px;
+    margin-bottom: 30px; 
+    filter: grayscale(100%);
+}
+
+.small-img {
+    position: absolute; 
+    bottom: 0; 
+    right: 0%; 
+    max-width: 40%; 
+    max-height: 200px;
+}
+
+.med-img {
+    position: absolute; 
+    bottom: 0; 
+    right: -10%; 
+    max-width: 60%; 
+    max-height: 230px;
+}
+
+.small-img-left {
+    position: absolute; 
+    bottom: 0; 
+    left: 0%; 
+    max-width: 40%; 
+    max-height: 200px;
+}
+
+.med-img-left {
+    position: absolute; 
+    bottom: -12%; 
+    left: 10; 
+    max-width: 50%; 
+    max-height: 300px;
+}
+
+.row-contain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+.item-listing {
+    display: flex; 
+    position: relative; 
+    flex-direction: column;
+    gap: 0vh; 
+    margin: 0; 
+    height: 200px; 
+    width: 100%; 
+    background-color: #fffcf6;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color .3s, color .3s; 
+    margin: 10px;
+    overflow: hidden; 
+}
+
+.bottom-item-listing {
+    display: flex; 
+    flex-direction: column;
+    position: relative; 
+    height: 200px; 
+    width: 100%; 
+    background-color: #fffcf6;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color .3s, color .3s; 
+    overflow: hidden; 
+    margin: 10px; 
+}
+
+.item-listing:hover, .bottom-item-listing:hover {
+    background-color: #2f1f00;
+    transition: background-color .3s, color .3s; 
+    cursor: pointer; 
+}
+
+.item-listing:hover h3, .bottom-item-listing:hover h3 {
+    color: #fffcf6; 
+    transition: background-color .3s, color .3s; 
+}
+
+.item-listing:hover h4, .bottom-item-listing:hover h4 {
+    color: #fffcf6; 
+    transition: background-color .3s, color .3s; 
+}
+
+.vert-row-col {
+    display: flex; 
+    flex-direction: column;
+    width: 70%; 
+    align-items: center;
+}
+
+.frame-reader {
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    height: 80vh; 
+    width: 80%;
+}
+
+.cap-txt {
+    width: 50vw; 
+    opacity: 60%;
+}
+
+.page-img {
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+
+@media all and (max-width: 700px) {
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.jp-img {
+    max-width: 80%;
+}
+
+
+
+.button-enter {
+    padding: 5px 50px; 
+
+}
+
+.row-contain {
+    flex-direction: column;
+}
+
+.item-listing {
+    width: 90%
+}
+
+.bottom-item-listing {
+    width: 90%
+}
+
+.spacer {
+    display: flex;
+    height: 50px; 
+    width: 100%; 
+}
+
+.vert-row-col {
+    width: 90%; 
+}
+
+.cap-txt {
+    width: 70vw; 
+    opacity: 60%;
+}
+
+.frame-reader {
+    margin-top: 50px; 
+}
+
+.body-container {
+
+    max-width: 90%;
+}
+
+.mobile-spacer {
+    display: flex;
+    height: 50px; 
+    width: 100%; 
+}
+
+}
