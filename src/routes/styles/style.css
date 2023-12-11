@@ -41,7 +41,7 @@ p {
 
 h1 {
     font-family: 'EB Garamond', serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #2f1f00; 
     font-weight: 300;
 }
@@ -164,12 +164,15 @@ h5 {
 
 .button-enter {
     display: flex; 
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     border: 1px solid #2f1f00; 
     font-family: 'Plus Jakarta Sans'; 
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;  
-    padding: 5px 30px; 
+    width: 20%; 
+    height: 30px; 
     border-radius: 40px; 
     transition: background-color .3s, color .3s;
 }
@@ -199,6 +202,11 @@ a {
     right: 0%; 
     max-width: 40%; 
     max-height: 200px;
+}
+
+.page-img-small {
+    max-width: 70%;
+    border-radius: 40px;
 }
 
 .med-img {
@@ -263,20 +271,31 @@ a {
     margin: 10px; 
 }
 
-.item-listing:hover, .bottom-item-listing:hover {
-    background-color: #2f1f00;
-    transition: background-color .3s, color .3s; 
-    cursor: pointer; 
-}
+@media all and (min-width: 701px) {
 
-.item-listing:hover h3, .bottom-item-listing:hover h3 {
-    color: #fffcf6; 
-    transition: background-color .3s, color .3s; 
-}
+    .item-listing:hover, .bottom-item-listing:hover {
+        background-color: #2f1f00;
+        transition: background-color .3s, color .3s; 
+        cursor: pointer; 
+    }
 
-.item-listing:hover h4, .bottom-item-listing:hover h4 {
-    color: #fffcf6; 
-    transition: background-color .3s, color .3s; 
+    .item-listing:hover h3, .bottom-item-listing:hover h3 {
+        color: #fffcf6; 
+        transition: background-color .3s, color .3s; 
+    }
+
+    .item-listing:hover h4, .bottom-item-listing:hover h4 {
+        color: #fffcf6; 
+        transition: background-color .3s, color .3s; 
+    }
+
+    .button-enter:hover{
+        cursor: pointer;
+        background-color: #2f1f00;
+        color: #fffcf6; 
+        transition: background-color .3s, color .3s;
+    }
+
 }
 
 .vert-row-col {

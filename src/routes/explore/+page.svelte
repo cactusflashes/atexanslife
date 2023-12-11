@@ -20,12 +20,12 @@
                 <h4 class="years"> 1945 - 1962</h4>
                 <img src={juanChild} alt="Juan Perez as a child." class="small-img">
             </a>
-            <a class="item-listing" href="/early-years">
+            <a class="item-listing" href="/adulthood">
                 <h3 class="item-listing-header-right">Adulthood</h3>
                 <h4 class="years-right"> 1962 - 2011</h4>
                 <img src={juanAdult} alt="Juan Perez as a child." class="small-img-left">
             </a>
-            <a class="item-listing" href="/early-years">
+            <a class="item-listing" href="/later-years">
                 <h3 class="item-listing-header">Later years & family</h3>
                 <h4 class="years"> 2011 - 2023</h4>
                 <img src={juanGuitarBW} alt="Juan Perez as a child." class="med-img">
@@ -38,7 +38,6 @@
             </a>
     </div>
     <div class="spacer"></div>
-    <a href="/about" style="opacity: 0.5; font-family: 'Plus Jakarta Sans'; text-decoration: underline; ">About</a>
     <div class="spacer"></div>
 
 </div>
