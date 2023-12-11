@@ -1,6 +1,9 @@
 <script>
     import brownsville from '/src/lib/vis/bv-tx.png'; 
     import douglas from '/src/lib/vis/douglas-1950.png'; 
+    import krystals from '/src/lib/vis/krystals.jpg'; 
+    import ginny from '/src/lib/vis/ginny.jpg';
+
 
 </script>
 <div class="container">
@@ -18,7 +21,7 @@
             <div class="divider"></div>
             <div style="height: 30px"></div>
             <p>Juan Perez was born in Brownsville, Texas on March 25th, 1945 to 
-                Juan R. and Margarita Perez. Juan's birth fell directly between two major 20th 
+                Juan and Margarita Perez. Juan's birth fell directly between two major 20th 
                 century generations—The Silent Generation & The Baby Boomer Generation. 
             </p>
             <div style="height: 15px"></div>
@@ -55,24 +58,44 @@
                 life-long friend Joe Duarte, bonding over guitar and wrestling. 
             </p>
             <p>
-                Juan became enamored by one particular girl at school. 
-                By his freshman year of highschool, Juan had expressed his feelings for Virginia.
+                Juan soon became enamored by one of his female classmates. 
+                "[Ginny] immediately became the apple, banana, and nectarine cider of my eye."<sup style="opacity: 0.5">2</sup>
             </p>
+            <img src={ginny} class="page-img-small" alt="Douglas, AZ in the late 1950's"/>
+            <div style="height: 15px"></div>
             <h5>"None caught my eye like cute-looking Ginny Cota."</h5>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
                 <strong>A Texan's Life at a Glance</strong>, 16-14. 
              </p>
             <p>
-                Juan & Joe decided to start a band with friends, 
+                Also during this time, Juan & friends formed a band known as '<strong>The Krystals</strong>'. 
+                The group played rock & roll, corridos, and boledos. 
+                With Juan heading up the rhythm guitar, his first composed instrumental
+                for the band was entitled '<strong>Ginny</strong>'.
             </p>
+            <div style="height: 15px"></div>
+            <img src={krystals} class="page-img" alt="Brownsville, Texas."/>
+            <div style="height: 15px"></div>
             <h5 style="font-weight: 800; margin: 0;">The Krystals</h5>
-            <ul style="margin: 5px;">
+            <p style="font-size: .8rem; opacity: 0.5; margin-bottom: 10px; margin-top: 0;">
+                Active years 1957 -1964. 
+             </p>            
+             <ul style="margin: 5px;">
                 <li><strong>Juan Peréz:</strong> Rhythm Guitar</li>
                 <li><strong>Oscar Romero:</strong> Lead Guitar</li>
                 <li><strong>Jimmy Silvas:</strong> Bass Guitar</li>
                 <li><strong>Robert Trevizu:</strong> Drums</li>
                 <li><strong>Frank Figueroa:</strong> Vocals, Saxophone</li>
             </ul>
+            <div style="height: 15px"></div>
+            <p>
+                The band played gigs around town consisting of weddings, parties, and quinceañeras. In 1963, the band was invited to 
+                perform at a regional talent show for the local radio station and won second place with their song 
+                'Underwater' broadcasted to Douglas & surrounding municipalities. 
+                <p>
+                    Juan joined the US Navy reserve as a junior in highschool in 1962. Continue reading in the next section, 
+                    '<strong>Adulthood</strong>'. 
+                </p>
             <div style="height: 15px"></div>
             <div class="divider"></div>
             <div style="height: 5px"></div>

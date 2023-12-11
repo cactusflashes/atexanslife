@@ -22,7 +22,7 @@
 
 <Navbar /> 
 {#key data.pathname}
-<div in:fly={{y:10, duration: 300, delay: 400 }} out:fly={{y:-10, duration: 300 }}>
+<div in:fly={{y:30, duration: 400, delay: 400 }} out:fly={{y:-30, duration: 400 }}>
     <slot />
 </div>
 {/key}
