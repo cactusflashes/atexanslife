@@ -77,6 +77,24 @@ li:hover a {
     li {
         font-weight: 600;
     }
+
+    li:hover {
+    display: flex;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border 0.3s;
+    }
+
+    a {
+        transition: background-color 0.5s, color 0.5s, border 0.3s;
+    }
+
+    li:hover a {
+        color: #2f1f00; 
+        transition: color 0.2s; 
+    }
+
+
 }
 
 </style>

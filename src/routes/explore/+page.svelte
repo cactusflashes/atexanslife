@@ -23,18 +23,18 @@
             <a class="item-listing" href="/adulthood">
                 <h3 class="item-listing-header-right">Adulthood</h3>
                 <h4 class="years-right"> 1962 - 2011</h4>
-                <img src={juanAdult} alt="Juan Perez as a child." class="small-img-left">
+                <img src={juanAdult} alt="Juan Perez as an adult." class="small-img-left">
             </a>
             <a class="item-listing" href="/later-years">
                 <h3 class="item-listing-header">Later years & family</h3>
                 <h4 class="years"> 2011 - 2023</h4>
-                <img src={juanGuitarBW} alt="Juan Perez as a child." class="med-img">
+                <img src={juanGuitarBW} alt="Juan Perez as an older man." class="med-img">
             </a>
         </div>
             <a class="bottom-item-listing" href="/biography">
-                <h3  style="width: 50%; text-align: right; " class="item-listing-header-right">Read A Texan's Life at a Glance online</h3>
+                <h3  style="width: 50%; text-align: right; " class="item-listing-header-right">Read A Texan's Life at a Glance</h3>
                 <h4 class="years-right"> 2015 - 16</h4>
-                <img src={texan} alt="Juan Perez as a child." class="med-img-left">
+                <img src={texan} alt="A hand holding a biography." class="med-img-left">
             </a>
     </div>
     <div class="spacer"></div>

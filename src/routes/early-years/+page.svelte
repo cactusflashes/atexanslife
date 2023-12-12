@@ -3,29 +3,32 @@
     import douglas from '/src/lib/vis/douglas-1950.png'; 
     import krystals from '/src/lib/vis/krystals.jpg'; 
     import ginny from '/src/lib/vis/ginny.jpg';
-
-
+    import jpfamold from '/src/lib/vis/jpfamold.jpg';
 </script>
 <div class="container">
     <div class="body-container">
-            <div class="navigation" style="margin-top: 100px">
+            <div class="navigation" style="margin-top: 50px">
                 <a class="nav-link" href="/explore">‹ Back</a>
                 <a class="nav-link" href="/adulthood">Adulthood ›</a>
             </div>
-            <h2 style="margin-bottom: 0">Early Years & Adolescence</h2>
+            <h2 style="margin: 0">Early Years & Adolescence</h2>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10px; width: 90%">
                 Information & accounts of events sourced from <strong>A Texan's Life at a Glance.</strong> Click on 
                 the 'Biography' tab to learn more.
             </p>
             <div style="height: 15px"></div>
             <div class="divider"></div>
-            <div style="height: 30px"></div>
+            <div style="height: 50px"></div>
+            <img src={jpfamold} class="page-img" alt="Juan and family, circa 1950."/>
+            <p style="font-size: .8rem; opacity: 0.5">
+                Juan (far right) and family, circa 1950. 
+            </p>
             <p>Juan Perez was born in Brownsville, Texas on March 25th, 1945 to 
                 Juan and Margarita Perez. Juan's birth fell directly between two major 20th 
                 century generations—The Silent Generation & The Baby Boomer Generation. 
             </p>
             <div style="height: 15px"></div>
-            <img src={brownsville} class="page-img" alt="Brownsville, Texas."/>
+            <img src={brownsville} class="page-img" alt="Brownsville, Texas in the 1940's."/>
             <p style="font-size: .8rem; opacity: 0.5">
                 Brownsville, Tx. & Matamorros, Mx. when Juan was born. Photo courtesy of 
                 <strong> The University of Texas, Rio Grande Valley</strong>. 
@@ -41,7 +44,8 @@
             </p>
             <p>
                 In 1957, Juan's father recieved a letter from his brother Tony, who had returned from the Army and headed south to find work. 
-                Tony found work as a construction union president in a small town called Douglas, Arizona.
+                Tony found work as a construction union president in Douglas, Arizona. With the prospect of 
+                better work on the horizon, Juan's parents made the decision to relocate.
             <p style="opacity: 0.6">
                 <em>
                     Juan's parents had previously lived in Pirtleville, Arizona for a brief period in 1944 before Juan's birth. 
@@ -59,9 +63,10 @@
             </p>
             <p>
                 Juan soon became enamored by one of his female classmates. 
-                "[Ginny] immediately became the apple, banana, and nectarine cider of my eye."<sup style="opacity: 0.5">2</sup>
+                <strong>[Ginny] immediately became the apple, banana, and nectarine cider of my eye.</strong>"
             </p>
-            <img src={ginny} class="page-img-small" alt="Douglas, AZ in the late 1950's"/>
+            <div style="height: 15px"></div>
+            <img src={ginny} class="page-img-small" alt="Ginny's highschool yearbook portrait" />
             <div style="height: 15px"></div>
             <h5>"None caught my eye like cute-looking Ginny Cota."</h5>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10;">

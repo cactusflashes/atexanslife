@@ -312,6 +312,7 @@ a {
     justify-content: center;
     height: 80vh; 
     width: 80%;
+    margin: 0; 
 }
 
 .cap-txt {
@@ -332,7 +333,7 @@ h1 {
 }
 
 .jp-img {
-    max-width: 80%;
+    max-width: 70%;
 }
 
 
@@ -382,6 +383,14 @@ h1 {
     display: flex;
     height: 50px; 
     width: 100%; 
+}
+
+.years-right {
+    position: absolute; 
+    right: 0;
+    margin-right: 40px; 
+    opacity: 50%; 
+    margin-top: 80px;
 }
 
 }
