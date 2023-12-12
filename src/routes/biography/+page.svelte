@@ -1,5 +1,8 @@
 <div class="container">
     <div class="spacer"></div>
+    <p style="margin-top: 50; margin-bottom: 0; opacity: 0.5;">
+        Content may take time to load.
+    </p>
 <div class="frame-reader" >
 <iframe title="A Texan's Life" 
 style="border: 1px solid #777; 

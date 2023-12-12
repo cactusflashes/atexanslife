@@ -2,16 +2,18 @@
     import fam from '/src/lib/vis/fam.jpg';
     import fambig from '/src/lib/vis/bigfam.jpg';
     import gg from '/src/lib/vis/gg.jpg';
+    import jpfamoldtwo from '/src/lib/vis/jpfamoldtwo.jpg';
+
 
 
 </script>
 <div class="container">
     <div class="body-container">
-            <div class="navigation" style="margin-top: 100px">
+            <div class="navigation" style="margin-top: 50px">
                 <a class="nav-link" href="/explore">‹ Back</a>
                 <a class="nav-link" href="/biography">Biography ›</a>
             </div>
-            <h2 style="margin-bottom: 0">Later Years & Family</h2>
+            <h2 style="margin: 0">Later Years & Family</h2>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10px; width: 90%">
                 Information & accounts of events sourced from <strong>A Texan's Life at a Glance.</strong> Click on 
                 the 'Biography' tab to learn more.
@@ -19,15 +21,16 @@
             <div style="height: 15px"></div>
             <div class="divider"></div>
             <div style="height: 15px"></div>
-        
             <p>
                 Juan enjoyed composing music, fishing, and supporting the Dallas Cowboys. But above all else, Juan loved 
                 his family.
             </p>
             <div style="height: 15px"></div>
-            <img src={fam} alt="Blind Dawg band" class="page-img"/>
+            <img src={jpfamoldtwo} alt="Juan's family. Circa 1970." class="page-img"/>
             <div style="height: 35px"></div>
-            <img src={fambig} alt="Blind Dawg band" class="page-img"/>
+            <img src={fam} alt="Juan, Ginny, and their three children." class="page-img"/>
+            <div style="height: 35px"></div>
+            <img src={fambig} alt="Juan with his grandchildren." class="page-img"/>
             <div style="height: 35px"></div>
              <h5>"We are blessed with our three children, Barbie, Christy, Johnny, their spouses, and the loving grandchildren
                 who completely fill our dreams"</h5>
@@ -71,18 +74,18 @@
                  <p style="font-size: .8rem; opacity: 0.5; margin: 0;">
                     Feburary 2nd, 2015.
                  </p>
-                 <div style="height: 15px"></div>
+                 <div style="height: 50px"></div>
                  <p>
-                    Juan passed away in his home on December 6th, 2023, sourrounded by Family.
+                    Juan passed away in his home on December 6th, 2023, surrounded by Family.
                 </p>
                  <div style="height: 15px"></div>
-                <img src={gg} alt="Blind Dawg band" class="page-img"/>
+                <img src={gg} alt="Juan and Ginny sitting outside." class="page-img"/>
                 <div style="height: 15px"></div>
                 <h5>"Richness is when you're blessed with a wife—<em>for 51 years now</em>—like Ginny."</h5>
                 <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
-                    Dated from 2016. At the time of his passing, Juan and Ginny saw 57 years together in marriage. 
+                    At the time of his passing, Juan and Ginny saw 58 years together in marriage. 
                  </p>
-            <div style="height: 45px"></div>
+            <div style="height: 15px"></div>
             <div class="divider"></div>
             <div style="height: 5px"></div>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
@@ -93,7 +96,7 @@
                 <a class="nav-link" href="/biography">Biography ›</a>
             </div>
 
-            <div style="height: 30px"></div>
+            <div style="height: 10px"></div>
 
         </div>
 </div>

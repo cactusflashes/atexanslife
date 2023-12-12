@@ -1,25 +1,31 @@
 <script>
     import bd from '/src/lib/vis/bd.jpg';
-
-import balcony from '/src/lib/vis/jp-balcony.jpg';
-import carrier from '/src/lib/vis/carrier.jpg';
-
-
+    import balcony from '/src/lib/vis/jp-balcony.jpg';
+    import carrier from '/src/lib/vis/carrier.jpg';
+    import jpnavy from '/src/lib/vis/jpnavy.jpg';
+    import jpdeck from '/src/lib/vis/jpdeck.jpg';
+    import jpsmall from '/src/lib/vis/jpsmall.jpg';
+    import jpwed from '/src/lib/vis/jpwed.jpg';
 </script>
 <div class="container">
     <div class="body-container">
-            <div class="navigation" style="margin-top: 100px">
+            <div class="navigation" style="margin-top: 50px">
                 <a class="nav-link" href="/explore">‹ Back</a>
                 <a class="nav-link" href="/later-years">Later Years ›</a>
             </div>
-            <h2 style="margin-bottom: 0">Adulthood</h2>
+            <h2 style="margin: 0">Adulthood</h2>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10px; width: 90%">
                 Information & accounts of events sourced from <strong>A Texan's Life at a Glance.</strong> Click on 
                 the 'Biography' tab to learn more.
             </p>
             <div style="height: 15px"></div>
             <div class="divider"></div>
-            <div style="height: 30px"></div>
+            <div style="height: 50px"></div>
+            <img src={jpnavy} alt="Juan in his navy uniform" class="page-img-small"/>
+            <p style="font-size: .8rem; opacity: 0.5; margin: 10px; width: 90%">
+                Juan in his sailor unfiform, circa early 1960's
+            </p>
+            <div style="height: 5px"></div>
             <p>
                 Beginning in 1962, Juan joined the US Navy Reserves while still in his junior year of highschool.
                 During this time, he would commute between Douglas and Long Beach, California for basic training. 
@@ -36,33 +42,40 @@ import carrier from '/src/lib/vis/carrier.jpg';
             <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
                 <strong>A Texan's Life at a Glance</strong>, 27-8. 
              </p>
+             <div style="height: 25px"></div>
+             <img src={jpwed} alt="Juan and Ginny on their wedding day." class="page-img"/>
+             <p style="font-size: .8rem; opacity: 0.5; margin: 10px; width: 90%">
+                Juan and Virgina on their wedding day.
+            </p>
+            <div style="height: 5px"></div>
             <p>
                 Juan and Virginia married on January 30th, 1965. Directly after their ceremony, they headed to Long Beach 
                 by bus to begin the next part of their lives together. 
             </p>
-            <div style="height: 15px"></div>
+            <div style="height: 25px"></div>
             <img src={balcony} alt="Juan on a balcony with a guitar" class="page-img"/>
-            <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
+            <p style="font-size: .8rem; opacity: 0.5; margin: 10; width: 90%;">
                 Juan on the Balcony of their Long Beach apartment, 1965.  
              </p>
-             <p>
-                Juan and Virginia married on January 30th, 1965. Directly after their ceremony, they headed to Long Beach 
-                by bus to begin the next part of their lives together. 
-            </p>
             <p>
                 After moving to Long Beach, Juan was stationed aboard the USS Kearsarge (CVS-33), an aircraft carrier that the Navy
                 converted into an anti-submarine warfare carrier, or ASW carrier. The Kearsarge embarked on several journies 
                 during the Vietnam and Korean war, including areas of the South China Sea, Hawaii, Japan, and Malaysia. 
             </p>
-            <p style="opacity: 0.6">
+            <div style="height: 15px"></div>
+            <img src={carrier} alt="The USS Kearsarge" class="page-img"/>
+            <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
+                <strong>The USS Kearsarge (CVS-33).</strong> Photo courtesy of Wikipedia Commons.
+             </p>
+             <p style="opacity: 0.6">
                 The 'CVS-33' denoted next to the ship's name shows the utility of the ship. Traditional aircraft carriers would
                 be branded CVA, and the anti-submarine warfare ships donned the title of CVS.
             </p>
             <div style="height: 15px"></div>
             <div style="height: 15px"></div>
-            <img src={carrier} alt="Juan on a balcony with a guitar" class="page-img"/>
-            <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
-                <strong>The USS Kearsarge (CVS-33).</strong> Photo courtesy of Wikipedia Commons.
+            <img src={jpdeck} alt="Juan and Ginny on the deck of the Kearsarge." class="page-img"/>
+             <p style="font-size: .8rem; opacity: 0.5; margin: 10; width: 100%;">
+                Juan and Ginny on the deck of the Kearsarge during a family visit. 
              </p>
              <p>
                 Aboard the Kearsarge, Juan worked manning the phones to identify and report damage that was caused by
@@ -74,6 +87,11 @@ import carrier from '/src/lib/vis/carrier.jpg';
                 Juan was honorably dischared from the Navy, and began looking around 
                 California for work—eventually finding a job at an aluminum factory in Torrence, California. 
             </p>
+            <div style="height: 15px"></div>
+            <img src={jpsmall} alt="Juan and Barbie in the backyard." class="page-img"/>
+            <p style="font-size: .8rem; opacity: 0.5; margin: 10; width: 90%;">
+                Juan with his baby daughter, Barbara. 
+             </p>
             <p>
                 After working at the aluminium factory for a period of time, Juan and Virginia grew homesick and made the 
                 decision to move back to Douglas, Arizona. They arrived back in Douglas in October of 1967. Immediately after, 
@@ -138,9 +156,7 @@ import carrier from '/src/lib/vis/carrier.jpg';
                 <a class="nav-link" href="/explore">‹ Back</a>
                 <a class="nav-link" href="/later-years">Later Years ›</a>
             </div>
-
-            <p style="opacity: 0.5; font-size: .8rem;"><sup>1</sup>Information courtesy of Texas State Historical Association, or TSHA.</p>
-            <div style="height: 30px"></div>
+            <div style="height: 10px"></div>
 
         </div>
 </div>
