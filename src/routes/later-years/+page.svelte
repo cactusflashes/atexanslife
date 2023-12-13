@@ -3,9 +3,7 @@
     import fambig from '/src/lib/vis/bigfam.jpg';
     import gg from '/src/lib/vis/gg.jpg';
     import jpfamoldtwo from '/src/lib/vis/jpfamoldtwo.jpg';
-
-
-
+    import smally from '/src/lib/vis/smally.jpg';
 </script>
 <div class="container">
     <div class="body-container">
@@ -26,6 +24,8 @@
                 his family.
             </p>
             <div style="height: 15px"></div>
+            <img src={smally} alt="Kids on the chair." class="page-img"/>
+            <div style="height: 35px"></div>
             <img src={jpfamoldtwo} alt="Juan's family. Circa 1970." class="page-img"/>
             <div style="height: 35px"></div>
             <img src={fam} alt="Juan, Ginny, and their three children." class="page-img"/>
@@ -33,7 +33,7 @@
             <img src={fambig} alt="Juan with his grandchildren." class="page-img"/>
             <div style="height: 35px"></div>
              <h5>"We are blessed with our three children, Barbie, Christy, Johnny, their spouses, and the loving grandchildren
-                who completely fill our dreams"</h5>
+                who completely fill our dreams."</h5>
                 <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
                     A Texans Life at a Glance, 40-1
                  </p>
@@ -95,8 +95,6 @@
                 <a class="nav-link" href="/explore">‹ Back</a>
                 <a class="nav-link" href="/biography">Biography ›</a>
             </div>
-
             <div style="height: 10px"></div>
-
         </div>
 </div>

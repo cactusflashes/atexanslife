@@ -6,6 +6,7 @@
     import jpdeck from '/src/lib/vis/jpdeck.jpg';
     import jpsmall from '/src/lib/vis/jpsmall.jpg';
     import jpwed from '/src/lib/vis/jpwed.jpg';
+    import ninos from '/src/lib/vis/ninos.jpg';
 </script>
 <div class="container">
     <div class="body-container">
@@ -55,7 +56,7 @@
             <div style="height: 25px"></div>
             <img src={balcony} alt="Juan on a balcony with a guitar" class="page-img"/>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10; width: 90%;">
-                Juan on the balcony of their Long Beach apartment, 1965.  
+                Juan on the Balcony of their Long Beach apartment, 1965.  
              </p>
             <p>
                 After moving to Long Beach, Juan was stationed aboard the USS Kearsarge (CVS-33), an aircraft carrier that the Navy
@@ -105,6 +106,11 @@
             </p>
             <p>
                 On September 22, 1968, Juan and Virginia's second child, Christy was born, followed by Johnny in 1975.
+            </p>
+            <div style="height: 15px"></div>
+            <img src={ninos} alt="Barbara, Christy, and Johnny." class="page-img"/>
+            <p style="font-size: .8rem; opacity: 0.5; margin: 10;">
+                Barbara, Christy, and Johnny.
             </p>
             <p>
                 In 1989, Valley National Bank merged with a Chicago-based bank, and laid off a large percentage of the 

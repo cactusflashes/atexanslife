@@ -3,12 +3,9 @@
     import juanAdult from '/src/lib/vis/juan-adult.png'
     import juanGuitarBW from '/src/lib/vis/jp-guitar-bw.png'
     import texan from '/src/lib/vis/texan-bw.png'
-
     function navigate() {
         window.location.href =""; 
     }
-
-
 </script>
 <div class="container">    
     <div class="mobile-spacer"></div>    
@@ -38,6 +35,6 @@
             </a>
     </div>
     <div class="spacer"></div>
+    <a href="/about" style="font-family: 'Plus Jakarta Sans'; text-decoration: underline; opacity: 0.5; ">About</a>
     <div class="spacer"></div>
-
 </div>
