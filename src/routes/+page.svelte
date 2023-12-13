@@ -9,5 +9,4 @@
     <img src={jpguitar} class="jp-img" alt="Juan sitting with a guitar. His signature is in the corner."/>
     </div>  
     <a class="button-enter" href="/explore">Enter ›</a>
-
 </div>

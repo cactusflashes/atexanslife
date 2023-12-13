@@ -104,14 +104,11 @@
             <div style="height: 15px"></div>
             <div class="divider"></div>
             <div style="height: 5px"></div>
-
             <div class="navigation">
                 <a class="nav-link" href="/explore">‹ Back</a>
                 <a class="nav-link" href="/adulthood">Adulthood ›</a>
             </div>
-
             <p style="opacity: 0.5; font-size: .8rem;"><sup>1</sup>Information courtesy of Texas State Historical Association, or TSHA.</p>
             <div style="height: 30px"></div>
-
         </div>
 </div>
