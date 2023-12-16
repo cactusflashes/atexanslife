@@ -76,7 +76,7 @@
                  </p>
                  <div style="height: 50px"></div>
                  <p>
-                    Juan passed away in his home on December 6th, 2023, surrounded by Family.
+                    Juan passed away in his home on December 6th, 2023, surrounded by family.
                 </p>
                  <div style="height: 15px"></div>
                 <img src={gg} alt="Juan and Ginny sitting outside." class="page-img"/>
