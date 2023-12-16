@@ -56,7 +56,7 @@
             <div style="height: 25px"></div>
             <img src={balcony} alt="Juan on a balcony with a guitar" class="page-img"/>
             <p style="font-size: .8rem; opacity: 0.5; margin: 10; width: 90%;">
-                Juan on the Balcony of their Long Beach apartment, 1965.  
+                Juan on the balcony of their Long Beach apartment, 1965.  
              </p>
             <p>
                 After moving to Long Beach, Juan was stationed aboard the USS Kearsarge (CVS-33), an aircraft carrier that the Navy
