@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+#     _.-=-._     .-, 
+#   .'       "-.,' / 
+#  (  o        _. <
+#   `=.____.="  `._\
+                
+# miss u gramps

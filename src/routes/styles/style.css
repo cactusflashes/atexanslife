@@ -1,400 +1,363 @@
-body {
-    background-color: #fffcf6; 
-    margin: 0;
-    padding: 0;
-    overflow-y: visible; 
-    overflow-x: hidden;
+:root {
+    --primary-color: #ffffff;
+    --accent-color: #0C2340;
+    --third-color: #8C8B89;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.spacer {
-    height: 100px; 
+/* body & main content positioning */
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+    background-color: var(--primary-color);
 }
 
 .container {
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    background-color: #fffcf6; 
-    height: 100%; 
-    width: 100vw;
-    align-items: center;
-    overflow-y: visible;
+    height: 100%;
+    width: 100%;
 }
 
-ul {
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-li {
-    list-style: none;
-    font-family: 'Plus Jakarta Sans';
-    opacity: 0.7; 
-}
-
-p {
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 400;
-    font-size: .9rem;
-}
+/* fonts & text */
 
 h1 {
-    font-family: 'EB Garamond', serif;
-    font-size: 2.3rem;
-    color: #2f1f00; 
-    font-weight: 300;
-}
-
-h2 {
-    font-family: 'EB Garamond', serif;
-    font-size: 2rem;
-    color: #2f1f00; 
-    font-weight: 400;
-}
-
-h3 {
-    font-family: 'Plus Jakarta Sans'; 
-    font-size: 1.1rem;
-    color: #2f1f00; 
-    font-weight: 400;
-    margin: 0; 
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Alice';
+    margin: 0;
 }
 
 h4 {
-    font-family: 'Plus Jakarta Sans'; 
-    font-size: 1.8rem;
-    color: #2f1f00; 
-    font-weight: 600;
-    margin: 0; 
-    margin-left: 20px; 
-}
-
-h5 {
-    font-family: 'EB Garamond', serif;
-    font-size: 1.5rem;
-    color: #2f1f00; 
+    font-size: 1rem;
     font-weight: 400;
-    margin: 0; 
+    margin-bottom: 0;
 }
 
-.vstack-sign {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.item-listing-header {
-    margin-top: 20px; 
-    margin-left: 20px; 
-    width: 70%; 
-}
-
-.item-listing-header-right {
-    display: flex; 
-    position: absolute;
-    top: 0; 
-    right: 40px; 
-    margin-top: 20px; 
-    width: auto; 
-}
-
-.mobile-spacer {
-    display: flex;
-    height: 100px; 
-    width: 100%; 
-}
-
-.years {
-    opacity: 50%; 
-    margin-top: 20px; 
-}
-
-.years-right {
-    position: absolute; 
-    right: 0;
-    margin-right: 40px; 
-    opacity: 50%; 
-    margin-top: 70px;
-    width: auto; 
-}
-
-.nav-link {
-    font-family: 'Plus Jakarta Sans';
-    text-decoration: underline;
-    font-weight: 500;
-    color: #2f1f00;
-}
-
-.navigation {
-    display: flex; 
-    flex-direction: row;
-    height: 80px; 
-    width: 100%; 
-    align-items: center;
-    justify-content: center;
-    gap: 30vw; 
-}
-
-.exit {
-    display: flex; 
-    flex-direction: column;
-    height: 30px; 
-    width: 30px; 
-    border-radius: 100%;
-    background-color: #2f1f00;
-    align-items: center;
-    justify-content: center;
-    color: #fffcf6; 
-}
-
-.divider {
-    height: 0px; 
-    border-bottom: 1px solid #2f1f00;
-    width: 90%
-}
-
-.body-container {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    max-width: 50%;
-}
-
-.button-enter {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border: 1px solid #2f1f00; 
-    font-family: 'Plus Jakarta Sans'; 
-    font-weight: 500;
-    font-size: 1rem;  
-    width: 20%; 
-    height: 30px; 
-    border-radius: 40px; 
-    transition: background-color .3s, color .3s;
-}
-
-.button-enter:hover{
-    cursor: pointer;
-    background-color: #2f1f00;
-    color: #fffcf6; 
-    transition: background-color .3s, color .3s;
+p {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: 5px;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
-.jp-img {
-    max-width: 30%;
-    border-radius: 40px;
-    margin-bottom: 30px; 
-    filter: grayscale(100%);
+/* header & header content */
+
+.header {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-color: var(--accent-color);
+    position: relative;
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
 
-.small-img {
-    position: absolute; 
-    bottom: 0; 
-    right: 0%; 
-    max-width: 40%; 
-    max-height: 200px;
+.header-content {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.page-img-small {
-    max-width: 70%;
-    border-radius: 40px;
+.header-text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.med-img {
-    position: absolute; 
-    bottom: 0; 
-    right: -10%; 
-    max-width: 60%; 
-    max-height: 230px;
+.gramps-header {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-image: url('$lib/vis/jp-guitar-bw.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
 }
 
-.small-img-left {
-    position: absolute; 
-    bottom: 0; 
-    left: 0%; 
-    max-width: 40%; 
-    max-height: 200px;
-}
+/* columned section & navigation links */
 
-.med-img-left {
-    position: absolute; 
-    bottom: -12%; 
-    left: 10; 
-    max-width: 50%; 
-    max-height: 300px;
-}
-
-.row-contain {
+.col-cont {
     display: flex;
     flex-direction: row;
+    height: 450px;
+    width: 100%;
+    background-color: var(--primary-color);
     align-items: center;
     justify-content: center;
-    width: 100%; 
 }
 
-.item-listing {
-    display: flex; 
-    position: relative; 
-    flex-direction: column;
-    gap: 0vh; 
-    margin: 0; 
-    height: 200px; 
-    width: 100%; 
-    background-color: #fffcf6;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-    transition: background-color .3s, color .3s; 
-    margin: 10px;
-    overflow: hidden; 
-}
-
-.bottom-item-listing {
-    display: flex; 
-    flex-direction: column;
-    position: relative; 
-    height: 200px; 
-    width: 100%; 
-    background-color: #fffcf6;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-    transition: background-color .3s, color .3s; 
-    overflow: hidden; 
-    margin: 10px; 
-}
-
-@media all and (min-width: 701px) {
-
-    .item-listing:hover, .bottom-item-listing:hover {
-        background-color: #2f1f00;
-        transition: background-color .3s, color .3s; 
-        cursor: pointer; 
-    }
-
-    .item-listing:hover h3, .bottom-item-listing:hover h3 {
-        color: #fffcf6; 
-        transition: background-color .3s, color .3s; 
-    }
-
-    .item-listing:hover h4, .bottom-item-listing:hover h4 {
-        color: #fffcf6; 
-        transition: background-color .3s, color .3s; 
-    }
-
-    .button-enter:hover{
-        cursor: pointer;
-        background-color: #2f1f00;
-        color: #fffcf6; 
-        transition: background-color .3s, color .3s;
-    }
-
-}
-
-.vert-row-col {
-    display: flex; 
-    flex-direction: column;
-    width: 70%; 
-    align-items: center;
-}
-
-.frame-reader {
-    display: flex; 
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    height: 80vh; 
-    width: 80%;
-    margin: 0; 
-}
-
-.cap-txt {
-    width: 50vw; 
-    opacity: 60%;
-}
-
-.page-img {
-    max-width: 100%;
-    border-radius: 40px;
-}
-
-.grampsnote {
-    max-width: 70%;
-}
-
-
-@media all and (max-width: 700px) {
-
-h1 {
-    font-size: 3.5rem;
-}
-
-.jp-img {
-    max-width: 70%;
-}
-
-
-
-.button-enter {
-    padding: 5px 50px; 
-
-}
-
-.row-contain {
-    flex-direction: column;
-}
-
-.item-listing {
-    width: 90%
-}
-
-.bottom-item-listing {
-    width: 90%
-}
-
-.spacer {
+.col-content {
     display: flex;
-    height: 50px; 
-    width: 100%; 
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+    gap: 20px;
 }
 
-.vert-row-col {
-    width: 90%; 
+.bio-module {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    align-items: center;
 }
 
-.cap-txt {
-    width: 70vw; 
+.module-data {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+.module-data p {
     opacity: 60%;
 }
 
-.frame-reader {
+.module-photo {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    transition: scale .3s ease;
+}
+
+.ey {
+    background-image: url('$lib/vis/jpfamold.jpg');
+}
+
+.ah {
+    background-image: url('$lib/vis/jpdeck.jpg');
+}
+
+.ly {
+    background-image: url('$lib/vis/gg.jpg');
+}
+
+/* obituary section */
+
+.obit {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: var(--accent-color);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.obit-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* page content */ 
+
+.page-header {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: var(--accent-color);
+    position: relative;
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content {
+    display: flex; 
+    flex-direction: column;
+    height: 100%; 
+    width: 80%; 
+    max-width: 1000px;
+    align-items: center;
+    align-self: center;
     margin-top: 50px; 
 }
 
-.body-container {
-
-    max-width: 90%;
+.page-content p {
+    margin-top: 10px; 
 }
 
-.mobile-spacer {
-    display: flex;
-    height: 50px; 
+.page-img-vert {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-top: 30px; 
+}
+
+.page-img-hori {
+    max-width: 80%;
+    border-radius: 10px;
+    margin-top: 30px; 
+}
+
+.img-caption {
+    margin-top: 10px; 
+    opacity: 40%; 
+    font-size: 0.8rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px; 
+}
+
+.historical {
+    display: flex; 
+    flex-direction: column;
+    height: 200px; 
+    width: 100vw; 
+    background-color: var(--accent-color);
+    color: white; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.hc {
+    display: flex; 
+    flex-direction: column;
+    width: 80%; 
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    padding: 0; 
+    list-style: none;
+    text-align: center;
+}
+
+.page-nav {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;  
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
     width: 100%; 
+    border-bottom: 1px solid black;
+    margin-bottom: 20px; 
 }
 
-.years-right {
-    position: absolute; 
-    right: 0;
-    margin-right: 40px; 
-    opacity: 50%; 
-    margin-top: 80px;
+.hstack-nav {
+    display: flex; 
+    flex-direction: row;
+    width: 30%; 
+    justify-content: space-between;
+    margin-top: 10px; 
 }
 
+.quote {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+/* media queries */
+
+@media all and (min-width: 801px) {
+    .bio-module:hover .module-photo {
+        scale: 1.02;
+        cursor: pointer;
+        transition: scale .3s ease;
+    }
+
+    .bio-module:hover {
+        cursor: pointer;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    #gh {
+        display: none;
+    }
+
+    .header {
+        height: 300px;
+    }
+
+    .header-text {
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .col-cont {
+        height: 1050px;
+        width: 100%;
+    }
+
+    .bio-module {
+        width: 90%;
+
+    }
+
+    .col-content {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .obit {
+        height: 900px;
+    }
+
+    .page-content {
+        width: 95%; 
+        text-align: center;
+        margin-top: 10px; 
+    }
+
+    .page-img-hori {
+        max-width: 95%; 
+    }
+
+    .page-img-vert {
+        max-width: 95%; 
+    }
+
+    .line {
+        width: 80%; 
+    }
+
+    .hstack-nav {
+        width: 80%; 
+    }
 }
